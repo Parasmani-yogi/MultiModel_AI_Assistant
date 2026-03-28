@@ -98,8 +98,7 @@ streamlit run app.py
 - Persistent chat storage (database)
 - Streaming responses
 - Drag-and-drop image upload
-- Inline mic and image buttons
-- Cloud deployment
+
 
 
 
