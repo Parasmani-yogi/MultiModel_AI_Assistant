@@ -19,40 +19,49 @@ A modern AI assistant built using Streamlit and OpenAI APIs, supporting text, im
 ## ⚙️ Setup (Using uv)
 
 ### 1. Install uv
-`bash
+
+```bash
 pip install uv
-bash`
+```
 
 ### 2. Create Virtual Environment
+```bash
 uv venv
+```
 
 ### 3. Activate Environment
 
 Windows:
+```bash
 .venv\Scripts\activate
+```
 
 Mac/Linux:
+```bash
 source .venv/bin/activate
+```
 
 ### 4. Install Dependencies
+```bash
 uv pip install -r requirements.txt
+```
 
 ---
 
 ## 🔑 Environment Variables
 
 Create a `.env` file in the root directory:
-
+`
 OPENAI_API_KEY=your_api_key_here
+`
 
 ---
 
 ## ▶️ Run the Application
-
+```bash
 streamlit run app.py
+```
 
-Open in browser:
-http://localhost:8501
 
 ---
 
@@ -93,12 +102,3 @@ http://localhost:8501
 
 ---
 
-## 👨‍💻 Author
-
-Parasmani Yogi
-
----
-
-## ⭐ Support
-
-If you find this project useful, consider giving it a star on GitHub.
