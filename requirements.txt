@@ -1,4 +1,11 @@
-streamlit
-openai
-python-dotenv
-pillow
+# UI framework (chat interface, file upload, mic input)
+streamlit>=1.33.0
+
+# LLM + Vision + Whisper APIs
+openai>=1.30.0
+
+# Loads .env (API key)
+python-dotenv>=1.0.1
+
+# Image processing
+pillow>=10.0.0
