@@ -16,35 +16,12 @@ A modern AI assistant built using Streamlit and OpenAI APIs, supporting text, im
 
 ---
 
-## 🏗️ Project Structure
-
-multimodal-ai-assistant/
-│
-├── app.py
-│
-├── core/
-│   ├── llm.py
-│   ├── speech.py
-│   ├── vision.py
-│   ├── memory.py
-│
-├── utils/
-│   ├── helpers.py
-│   ├── prompts.py
-│
-├── assets/
-│   └── temp/
-│
-├── requirements.txt
-├── .env
-└── README.md
-
----
-
 ## ⚙️ Setup (Using uv)
 
 ### 1. Install uv
-`pip install uv`
+`bash
+pip install uv
+bash`
 
 ### 2. Create Virtual Environment
 uv venv
