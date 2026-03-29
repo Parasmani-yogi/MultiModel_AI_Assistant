@@ -153,7 +153,7 @@ if st.session_state.show_menu:
             audio_bytes = audio.getbuffer()
             audio_hash = hashlib.md5(audio_bytes).hexdigest()
 
-            # 🔥 process only new audio
+            # process only new audio
             if audio_hash != st.session_state.last_audio_hash:
 
                 st.session_state.last_audio_hash = audio_hash
