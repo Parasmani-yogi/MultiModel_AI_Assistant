@@ -100,5 +100,7 @@ streamlit run app.py
 - Drag-and-drop image upload
 
 
+## Demo
+<img width="1908" height="856" alt="image" src="https://github.com/user-attachments/assets/327043b9-cf44-45e2-85d1-6a8ff9fb4cb1" />
 
 
